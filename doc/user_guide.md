@@ -44,7 +44,8 @@ A buzzer sounds when the clock runs down to zero.
 *This section describes how to pair displays with a controller, how to set times 1 and 2, and how to change the controller password.*
 
 Follow the instructions in **Basic Usage** to power on the controller.
-The controller will act like a WiFi router. Using a laptop or mobile phone, go to your WiFi settings and connect to
+The controller will act like a WiFi access point.
+Using a laptop or mobile phone, go to your WiFi settings and connect to
 the network named KShot-Controller-*xxxx* where *xxxx* is a four digit number.
 The default password is KShot-Pass-*xxxx* which can **and should** be changed.
 
@@ -54,7 +55,8 @@ Open a web browser and you will be taken to a configuration page.
 
 1. Connect a display to the controller using a USB cable.
 2. Click the *Setup display wireless connection* button.
-   The displays will each show a number between 1 and 8, and the same numbers will be listed in the configuration screen.
+   The displays will each show a number between 1 and 8,
+   and the same numbers will be listed in the configuration screen.
 3. For each display, click the *Connect wirelessly* button to set up the WiFi connection.
 4. Click done when all the displays have been connected wirelessly.
 
@@ -72,8 +74,19 @@ TODO: Is that actually true?
 2. Click the Confirm button.
 3. Press and hold the *Load time 1* and *Load time 2* buttons on the controller for 3 seconds.
    The LCD display will ask if you want to accept the new password.
-4. Hold the *Clock start/stop* button for 3 seconds to accept, and the controller will return to normal operation.
-   If you don't want to accept the new password, instead press either *Load time* button or wait for 10 seconds.
+4. Hold the *Clock start/stop* button for 3 seconds to accept,
+   and the controller will return to normal operation.
+   If you don't want to accept the new password,
+   instead press either *Load time* button or wait for 10 seconds.
+
+
+# Accessing the Rules Reference
+
+The browser interface also includes a summary of the korfball rules relevant to shot clocking.
+
+1. Connect a laptop or mobile phone to the controller by following the instructions in *Setup*.
+2. Click on *Rules Reference*.
+3. Browse or search the rules.
 
 
 # Advanced Usage
@@ -86,7 +99,8 @@ TODO: Is that actually true?
   - Click the *download* button next to a log to download it to the connected device, or
   - Insert a USB stick into the controller and click the *copy to USB* button next to the log.
 
-Once the logs take up more than a permitted amount of storage, the oldest logs will be automatically deleted.
+Once the logs take up more than a permitted amount of storage,
+the oldest logs will be automatically deleted.
 
 ## Resetting the Password
 
@@ -96,4 +110,5 @@ If you have lost the controller password you can reset it to the default describ
    The LCD display on the controller will ask if you want to reset the password.
 2. Hold the *Clock start/stop* button for 3 seconds.
    The password will be reset and the controller will return to normal operation.
-   If you don't want to reset the password, instead press either *Load time* button or wait for 10 seconds.
+   If you don't want to reset the password,
+   instead press either *Load time* button or wait for 10 seconds.
